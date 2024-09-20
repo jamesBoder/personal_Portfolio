@@ -1,0 +1,47 @@
+/* Navbar */
+
+
+
+header {
+  width: 25%;
+  height: 100vh;
+}
+
+.dark-background {
+  background-color: gainsboro;
+}
+
+.navbar-nav .nav-link {
+  margin-bottom: 10px;
+}
+
+/* .header .social-links a {
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  color: var(--default-color);
+  margin: 0 2px;
+  border-radius: 50%;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+} */
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 .resume-title {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: auto;
+}
