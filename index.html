@@ -1,284 +1,583 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>My Personal Portfolio</title>
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Personal Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <!--Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!--CSS-->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <header id="header" class="header dark-background d-flex flex-column">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-      <div>
-        <img class="img-fluid rounded-circle">
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="/images/ai-generated-7715246_1280.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+       <img src="/images/ai-generated-7715246_1280.jpg" alt="">
+      <h1 class="sitename">James Boder</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#skills"><i class="bi bi-person navicon"></i>Skills</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        </li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!--Hero Section-->
+    <section id="hero" class="hero section dark-background ">
+
+      <img src="/images/ai-generated-7715246_1280.jpg" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-in" data-aos-delay="100">
+        <h2>James Boder</h2>
+        <p>I'm a <span class="typed" data-typed-items="Designer, Developer, Freelancer, Engineer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       </div>
+    </section>
 
-      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">James Boder</h1>
-      </a>
+    <!--About Section-->
+    <section id="about" class="about section">
+      
+      <!--Section Title-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Here to change the world one code at a time. Allow me to assist with your web development</p>
+      </div><!--End Section Title-->
 
-      <div class="social-links text-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-      <nav class="navbar">
-        <div class="container">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="resume" class="nav-link">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a href="portfolio" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main class="main">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
 
-      <!--Hero Section-->
-      <section id="hero" class="hero section dark-background ">
+            <!--Insert Image-->
+            <img src="/images/web-3157323_1280.jpg" class="img-fluid">
+          </div>
 
-        <img src="" data-aos="fade-in">
+          <div class="col-lg-8 content">
+            <h2>Software Developer</h2>
+            <p>
+              <em>Construct websites & applications</em>
+            </p>
 
-        <div class="container" data-aos="fade-in" data-aos-delay="100">
-          <h2>James Boder</h2>
-          <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-        </div>
-      </section>
+            <br>
 
-      <!--About Section-->
-      <section id="about" class="about section">
-        
-        <!--Section Title-->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>About</h2>
-          <p>Here to change the world one code at a time. Follow me on my journey</p>
-        </div><!--End Section Title-->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="row gy-4 justify-content-center">
-            <div class="col-lg-4">
-
-              <!--Insert Image-->
-              <img src="" class="img-fluid">
-            </div>
-
-            <div class="col-lg-8 content">
-              <h2>Web Developer</h2>
-              <p>
-                Construct websites
-              </p>
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul>
-                    <li><strong>Birthday: Jan 20 1987</strong></li>
-                    <li><strong>Phone: 347 333 4569</strong></li>
-                    <li><strong>City: New York City, USA</strong></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul>
-                    <li><strong>Age: 36</strong></li>
-                    <li><strong>Degree: Bachelor's</strong></li>
-                    <li><strong>Email: boder@gmail.com</strong></li>
-                    <li><strong>Freelance: Available</strong></li>
-                  </ul>
-                  
-                </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Birthday: Jan 20 1987</strong></li>
+                  <li><strong>Phone: 347 333 4569</strong></li>
+                  <li><strong>City: Brooklyn, USA</strong></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><strong>Age: 36</strong></li>
+                  <li><strong>Degree: Master's</strong></li>
+                  <li><strong>Email: boder@gmail.com</strong></li>
+                </ul>
+                
               </div>
             </div>
           </div>
         </div>
-      </section><!--End About Section-->
+      </div>
+    </section><!--End About Section-->
 
-      <!--Skills Section-->
-      <section id="skills" class="skills section light-background">
+    <!--Skills Section-->
+    <section id="skills" class="skills section light-background">
 
-        <!--Section Title-->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Skills</h2>
-          <p>Programming languages</p>
-        </div><!--End Section Title-->
+      <!--Section Title-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Programming languages</p>
+      </div><!--End Section Title-->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row skills-content skills-animation">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
 
-            <div class="col-lg-6">
+          <div class="col-lg-6">
 
-              <div>
-                <img>
-                <h3>Html</h3>
-              </div>
-
-              <div>
-                <img>
-                <h3>CSS</h3>
-              </div>
-
-              <div>
-                <img>
-                <h3>JavaScript</h3>
-              </div>
-
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/html5-3384039_640.png" width="200" height="200">
+              <h3 mb="30px">Html</h3>
             </div>
-            <div class="col-lg-6">
 
-              <div>
-                <img>
-                <h3>Python</h3>
-              </div>
+            <br>
 
-              <div>
-                <img>
-                <h3>Photoshop</h3>
-              </div>
-
-              <div>
-                <img>
-                <h3>SQL</h3>
-              </div>
-              
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/file-7084005_640.png" width="200" height="200">
+              <h3 mb="30px">CSS</h3>
             </div>
+
+            <br>
+
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/file-7084007_640.png" width="200" height="200">
+              <h3 mb="30px">JavaScript</h3>
+            </div>
+
+          </div>
+
+          <br>
+
+          <div class="col-lg-6">
+
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/python-8665904_640.png" width="200" height="200">
+              <h3 mb="30px" >Python</h3>
+            </div>
+
+            <br>
+
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/photoshop-873358_640.png" width="200" height="200">
+              <h3 mb="30px">Photoshop</h3>
+            </div>
+
+            <br>
+
+            <div>
+              <img class="img-fluid landscape-aspectratio" src="/images/OIP.jpeg" width="200" height="200">
+              <h3 mb="30px">SQL</h3>
+            </div>
+            
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!--End Skills Section-->
+    <br><br>
+
+    <!--Resume Section-->
+    <section id="resume" class="resume section">
+      
+      <!--Section Title-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p></p>
+      </div><!--End Section Title-->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 clas="resume-title">Summary</h3>
+
+            <br><br>
+         
+            <div class="resume-item pb-0">
+              <h4>James Boder</h4>
+              <br>
+              <p><em>Focused and motivated Software Developer with 4+ years of experience creating ideas into fully functional programs</em></p>
+            </div><!--End Resume Item-->
+
+            <br>
+
+            <h3>Education</h3>
+
+            <div class="resume-item mb-20">
+              <h4>Master of Fine Arts &amp; Graphic Design</h4>
+              <h5>2018 - 2020</h5>
+              <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+      
+            </div><!-- Edn Resume Item -->
+
+            <br>
+
+            <div class="resume-item mb-20">
+              <h4>Bachelor's - Computer Science</h4>
+              <h5>2014-2018</h5>
+              <p><em>Rutgers University, New Jersey</em></p>
+              <ul>
+                <li>Cum Laude</li>
+                <li>3.7 GPA</li>
+              </ul>
+            </div><!--End Resume Item-->
+
+          </div>
+
+          <br>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Senior Graphic Design Specialist</h4>
+              <h5>2019 - Present</h5>
+              <p><em>Experion, New York, NY </em></p>
+              <ul>
+                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+              </ul>
+            </div><!--End Resume Item-->
+
+            <div class="resume-item">
+              <h4>Graphic design specialist</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Stepping Stone Advertising, New York, NY</em></p>
+              <ul>
+                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
 
           </div>
 
         </div>
 
-      </section><!--End Skills Section-->
-      <br><br>
+      </div>
 
-      <!--Resume Section-->
-      <section id="resume" class="resume section">
-        
-        <!--Section Title-->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Resume</h2>
-          <p></p>
-        </div><!--End Section Title-->
+    </section><!--End Resume Section-->
 
-        <div class="container">
+    <!--Portfolio Section-->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!--Section Title-->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Sample </p>
+      </div><!--End Section Title-->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-aos="fade-up" data-aos-delay="100">
 
           <div class="row">
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 clas="resume-title">Summary</h3>
-           
-              <div class="resume-item pb-0">
-                <h4>James Boder</h4>
-                <p><em>Focused and motivated Software Developer with 4+ years of experience creating ideas into fully functional programs</em></p>
-              </div><!--End Resume Item-->
-
-              <h3>Education</h3>
-
-              <div class="resume-item">
-                <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                <h5>2010 - 2014</h5>
-                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-              </div><!-- Edn Resume Item -->
-  
-
-              <div class="resume-item">
-                <h4>Bachelor's - Computer Science</h4>
-                <h5>2014-2018</h5>
-                <p><em>Rutgers University, New Jersey</em></p>
-                <p></p>
-              </div><!--End Resume Item-->
-
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img id="animation" class="img-fluid landscape-aspectratio" src="/images/ux-788002_1280.jpg">
+                <div><h4></h4></div>
+              </a>
             </div>
-
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Senior graphic design specialist</h4>
-                <h5>2019 - Present</h5>
-                <p><em>Experion, New York, NY </em></p>
-                <ul>
-                  <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                  <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                  <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                  <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                </ul>
-              </div><!--End Resume Item-->
-
-              <div class="resume-item">
-                <h4>Graphic design specialist</h4>
-                <h5>2017 - 2018</h5>
-                <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                <ul>
-                  <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                  <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                  <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                  <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-                </ul>
-              </div><!-- Edn Resume Item -->
-
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/iphone-830480_1280.jpg">
+                <div><h4></h4></div>     
+              </a>
             </div>
-
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/life-864372_1280.jpg">
+                <div><h4></h4></div>   
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/website-6351151_1280.jpg">
+                <div><h4></h4></div>   
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/website-8305450_1280.jpg">
+                <div><h4></h4></div>  
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/website-6700615_1280.png">
+                <div><h4></h4></div>  
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/web-design-3411373_1280.jpg">
+                <div><h4></h4></div>     
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/laptop-593673_1280.jpg">
+                <div><h4></h4></div>        
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/website-3374825_1280.jpg">
+                <div><h4></h4></div>         
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/code-2558224_1280.jpg">
+                <div><h4></h4></div>         
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/laptop-240192_1280.jpg">
+                <div><h4></h4></div>         
+              </a>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+              <a href="#">
+                <img class="img-fluid landscape-aspectratio" src="/images/search-engine-optimization-5140076_1280.jpg">
+                <div><h4></h4></div>       
+              </a>
+            </div>
           </div>
 
         </div>
+            
+      </div>
 
-      </section><!--End Resume Section-->
+    </section><!--End Portfolio Section-->
 
-    </main>
+        <!-- Services Section -->
+        <section id="services" class="services section">
+
+          <!-- Section Title -->
+          <div class="container section-title" data-aos="fade-up">
+            <h2>Services</h2>
+            <p>What's on offer</p>
+          </div><!-- End Section Title -->
     
+          <div class="container">
     
+            <div class="row gy-4">
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Web Design</a></h4>
+                  <p class="description">Creating websites from the ground up</p>
+                </div>
+              </div>
+              <!-- End Service Item -->
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Software Development</a></h4>
+                  <p class="description">Developing applications and programs for a streamlined user experience</p>
+                </div>
+              </div><!-- End Service Item -->
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Product Management</a></h4>
+                  <p class="description">Planning, developing, launching and managing a product or service</p>
+                </div>
+              </div><!-- End Service Item -->
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Graphic Design</a></h4>
+                  <p class="description">Turning ideas and concepts into visual art</p>
+                </div>
+              </div><!-- End Service Item -->
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Marketing</a></h4>
+                  <p class="description">Tools to target consumers and maximize product visibility</p>
+                </div>
+              </div><!-- End Service Item -->
     
+              <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+                <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+                <div>
+                  <h4 class="title"><a href="service-details.html" class="stretched-link">Consultation</a></h4>
+                  <p class="description">Detailed analysis on company products and services</p>
+                </div>
+              </div><!-- End Service Item -->
     
+            </div>
     
+          </div>
     
-    
-    
-    
-    
-    
-    
-    
-    <!--Bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+        </section><!-- /Services Section -->
+
+        <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Any questions?</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>75 Fulton St. Brooklyn, NY 11238</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 347 333 4569</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>boder@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.285898999344!2d-73.98553602413814!3d40.68970067139703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25c73b74477f7%3A0x67fb2bedfdb81fd8!2sFulton%20St%2C%20Brooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1726940620565!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Personal Portfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits"></div>
+        <!-- All the links in the footer should remain intact. -->
+      
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+      
+      <div class="text-center small mt-20">
+        Part of Altcademy's Fullstack Program <a href="https://www.altcademy.com/">www.altcademy.com</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
